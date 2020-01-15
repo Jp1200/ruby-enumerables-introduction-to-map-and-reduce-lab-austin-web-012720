@@ -63,8 +63,6 @@ def reduce_to_any_true(source_array)
   while i < source_array.length do 
     if source_array[i] == Integer
       return true 
-    elsif source_array.all? != Integer
-      return false
     end
     i += 1 
   end
