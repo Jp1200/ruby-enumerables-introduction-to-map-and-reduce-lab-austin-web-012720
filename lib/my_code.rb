@@ -64,7 +64,7 @@ def reduce_to_any_true(source_array)
     elsif source_array.all? != Integer
       return false
   end
-    return 
+    
     
   end
 end 
