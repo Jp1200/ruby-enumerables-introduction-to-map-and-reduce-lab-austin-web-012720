@@ -3,7 +3,11 @@ def map_to_negative(source_array)
   i = 0 
   new_array = []
   while i < source_array.length do 
+    if source_array[i] < 0 
+    new_array << source_array[i]
+    else 
     new_array << source_array[i]*(-1)
+    end 
     i += 1 
   end
   return new_array
