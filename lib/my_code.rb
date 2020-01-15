@@ -42,7 +42,7 @@ def reduce_to_total(source_array, starting_point)
   if starting_point == Integer
     total = starting_point 
   else 
-    total = source_array[0]
+    total = 0
   end
   while i < source_array.length do 
    total += source_array[i]   
