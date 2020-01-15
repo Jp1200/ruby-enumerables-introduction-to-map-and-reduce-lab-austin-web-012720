@@ -63,8 +63,6 @@ def reduce_to_any_true(source_array)
       return true 
     elsif source_array.all? != Integer
       return false
-  end
-    
-    
+    end
   end
 end 
