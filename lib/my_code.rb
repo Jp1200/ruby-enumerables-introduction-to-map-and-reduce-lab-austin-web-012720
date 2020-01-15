@@ -54,7 +54,7 @@ def reduce_to_all_true(source_array)
     end
     i += 1 
   end
-  if source_array.all? == Integer
+  if source_array.all? 
     return true 
   end
   
